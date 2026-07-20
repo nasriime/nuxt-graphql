@@ -30,10 +30,10 @@ const navigation = computed(() => [
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <NuxtLink to="/" class="flex flex-shrink-0 items-center gap-2 group">
             <div class="h-8 w-8 rounded-lg bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center text-white font-extrabold text-sm shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-all">
-              DV
+              MH
             </div>
             <span class="hidden sm:block text-zinc-100 font-bold tracking-tight group-hover:text-indigo-400 transition-all">
-              Dan Vega
+              Mohamed Hassanin
             </span>
           </NuxtLink>
           <div class="hidden sm:ml-8 sm:block">

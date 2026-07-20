@@ -13,11 +13,11 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
     head: {
-      title: 'Dan Vega | Software Engineer & Developer Advocate',
+      title: 'Mohamed Hassanin | Software Engineer & Web Developer',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Personal portfolio and blog of Dan Vega, Developer Advocate and Software Engineer.' }
+        { name: 'description', content: 'Personal portfolio and blog of Mohamed Hassanin, Software Engineer and Web Developer.' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

@@ -6,7 +6,7 @@ const { data: posts } = await useAsyncData('posts', () =>
 )
 
 useSeoMeta({
-  title: 'Blog | Dan Vega',
+  title: 'Blog | Mohamed Hassanin',
   description: 'Articles about Java, Spring Boot, Vue, Nuxt, and modern software engineering.',
 })
 </script>

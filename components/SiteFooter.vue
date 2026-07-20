@@ -13,9 +13,9 @@ const currentYear = new Date().getFullYear();
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-zinc-400 text-sm">
       <div class="flex items-center gap-2">
         <div class="h-6 w-6 rounded-md bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center text-white font-extrabold text-xs">
-          DV
+          MH
         </div>
-        <p>&copy; {{ currentYear }} Dan Vega. All Rights Reserved.</p>
+        <p>&copy; {{ currentYear }} Mohamed Hassanin. All Rights Reserved.</p>
       </div>
       <div class="flex items-center gap-2">
         <a v-for="link in links" :key="link.name" :href="link.href" target="_blank" rel="noopener noreferrer"

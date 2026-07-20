@@ -14,8 +14,8 @@ const editorSetup = [
 ]
 
 useSeoMeta({
-  title: 'Uses | Dan Vega',
-  description: 'The software, hardware, and setup gear used by Dan Vega.',
+  title: 'Uses | Mohamed Hassanin',
+  description: 'The software, hardware, and setup gear used by Mohamed Hassanin.',
 })
 </script>
 

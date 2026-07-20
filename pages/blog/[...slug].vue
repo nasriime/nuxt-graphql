@@ -11,7 +11,7 @@ const { data: post } = await useAsyncData(`content-${path}`, () => {
 watchEffect(() => {
   if (post.value) {
     useSeoMeta({
-      title: `${post.value.title} | Dan Vega`,
+      title: `${post.value.title} | Mohamed Hassanin`,
       description: post.value.description,
     })
   }

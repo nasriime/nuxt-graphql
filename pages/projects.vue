@@ -30,7 +30,7 @@ const mockProjects = [
     id: 'mock-1',
     name: 'spring-boot-3-demo',
     description: 'A comprehensive collection of demos showcasing new features in Spring Boot 3 and Java 17+.',
-    url: 'https://github.com/danvega/spring-boot-3-demo',
+    url: 'https://github.com/nasriime/spring-boot-3-demo',
     stargazers: { totalCount: 142 },
     forks: { totalCount: 48 },
     watchers: { totalCount: 12 },
@@ -40,7 +40,7 @@ const mockProjects = [
     id: 'mock-2',
     name: 'nuxt-portfolio-template',
     description: 'A modern, premium portfolio template built with Nuxt 3, Tailwind CSS, and GraphQL.',
-    url: 'https://github.com/danvega/nuxt-portfolio-template',
+    url: 'https://github.com/nasriime/nuxt-portfolio-template',
     stargazers: { totalCount: 89 },
     forks: { totalCount: 22 },
     watchers: { totalCount: 5 },
@@ -50,7 +50,7 @@ const mockProjects = [
     id: 'mock-3',
     name: 'awesome-dev-advocacy',
     description: 'A curated list of resources, articles, and templates for Developer Advocates and Tech Evangelists.',
-    url: 'https://github.com/danvega/awesome-dev-advocacy',
+    url: 'https://github.com/nasriime/awesome-dev-advocacy',
     stargazers: { totalCount: 210 },
     forks: { totalCount: 35 },
     watchers: { totalCount: 18 },
@@ -60,7 +60,7 @@ const mockProjects = [
     id: 'mock-4',
     name: 'graphql-java-api',
     description: 'An elegant GraphQL API implementation in Java using Spring GraphQL and Spring Data JPA.',
-    url: 'https://github.com/danvega/graphql-java-api',
+    url: 'https://github.com/nasriime/graphql-java-api',
     stargazers: { totalCount: 64 },
     forks: { totalCount: 15 },
     watchers: { totalCount: 4 },
@@ -70,7 +70,7 @@ const mockProjects = [
     id: 'mock-5',
     name: 'vue3-composition-api-tips',
     description: 'A repository full of code snippets and guides on mastering Vue 3 Composition API best practices.',
-    url: 'https://github.com/danvega/vue3-composition-api-tips',
+    url: 'https://github.com/nasriime/vue3-composition-api-tips',
     stargazers: { totalCount: 178 },
     forks: { totalCount: 42 },
     watchers: { totalCount: 9 },
@@ -80,7 +80,7 @@ const mockProjects = [
     id: 'mock-6',
     name: 'nextjs-blog-cms',
     description: 'A head-to-head template combining Next.js with headless CMS tools and Tailwind CSS.',
-    url: 'https://github.com/danvega/nextjs-blog-cms',
+    url: 'https://github.com/nasriime/nextjs-blog-cms',
     stargazers: { totalCount: 95 },
     forks: { totalCount: 19 },
     watchers: { totalCount: 6 },
@@ -136,8 +136,8 @@ const projects = computed(() => {
 });
 
 useSeoMeta({
-  title: 'Projects | Dan Vega',
-  description: 'Explore open source repositories and personal coding projects by Dan Vega.',
+  title: 'Projects | Mohamed Hassanin',
+  description: 'Explore open source repositories and personal coding projects by Mohamed Hassanin.',
 })
 </script>
 
