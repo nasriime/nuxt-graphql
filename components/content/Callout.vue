@@ -2,24 +2,24 @@
 const props = defineProps({
   title: {
     type: String,
-    default: 'Callout'
+    default: 'Info'
   }
 })
 </script>
 
 <template>
-  <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md" role="alert">
-    <div class="flex">
-      <div class="py-1"><svg class="fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20">
-          <path
-            d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z" />
-        </svg></div>
-      <div>
-        <p class="font-bold">{{ props.title }}</p>
-        <p class="text-sm">
-          <slot />
-        </p>
+  <div class="glass-panel border-l-4 border-l-indigo-500 bg-indigo-500/5 text-zinc-300 p-5 rounded-r-2xl rounded-l-md my-8 shadow-md relative overflow-hidden flex items-start gap-4" role="alert">
+    <!-- Ambient glow circle inside -->
+    <div class="absolute top-0 left-0 w-24 h-24 rounded-full bg-indigo-500/5 blur-xl -translate-x-6 -translate-y-6"></div>
+
+    <div class="p-1.5 rounded-lg bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 shrink-0">
+      <Icon name="lucide:info" size="1.2rem" />
+    </div>
+
+    <div class="space-y-1 relative z-10">
+      <p class="font-bold text-zinc-100 text-base leading-snug">{{ props.title }}</p>
+      <div class="text-zinc-300 text-sm leading-relaxed">
+        <slot />
       </div>
     </div>
   </div>

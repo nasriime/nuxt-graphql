@@ -1,17 +1,33 @@
 <script setup>
 const { data: posts } = await useAsyncData('posts', () =>
-  queryContent('/blog').find()
+  queryContent('/blog')
+    .sort({ date: -1 })
+    .find()
 )
+
+useSeoMeta({
+  title: 'Blog | Dan Vega',
+  description: 'Articles about Java, Spring Boot, Vue, Nuxt, and modern software engineering.',
+})
 </script>
 
 <template>
-  <h1 class="text-3xl my-8">Blog Posts</h1>
+  <div class="space-y-12">
+    <!-- Header -->
+    <div class="space-y-4 text-left max-w-3xl">
+      <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+        Blog Posts
+      </h1>
+      <p class="text-lg text-zinc-400 leading-relaxed">
+        I write about software engineering, developer advocate tips, tutorials, and new tools that catch my interest.
+        If you want me to write about a topic or collaborate, feel free to reach out on
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:underline">Twitter</a>.
+      </p>
+    </div>
 
-  I like to write about anything thta I am currently working or something new that interests me. If you would like me to
-  write about something or be a guest blogger on your blog please reach out to me on Twitter. If you would like to
-  subscribe to an RSS feed you can find it here.
-
-  <section class="grid md:grid-cols-3 mt-8 gap-10">
-    <Post :posts="posts" />
-  </section>
+    <!-- Post Grid -->
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <Post :posts="posts" />
+    </section>
+  </div>
 </template>
